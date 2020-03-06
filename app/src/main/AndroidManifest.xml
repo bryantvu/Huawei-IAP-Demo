@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.bvutest.iapdemo">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/iap"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/iap"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.bvutest.iapdemo.activity.NonConsumptionActivity"
+            android:label="@string/hidden_level" />
+        <activity
+            android:name="com.bvutest.iapdemo.activity.ConsumptionActivity"
+            android:theme="@style/NoActionBar" >
+        </activity>
+
+        <activity android:name="com.bvutest.iapdemo.subscription.SubscriptionActivity"></activity>
+        <activity android:name="com.bvutest.iapdemo.activity.EntryActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.bvutest.iapdemo.activity.PurchaseHistoryActivity"
+            android:label="@string/purchase_history_title"/>
+    </application>
+
+</manifest>

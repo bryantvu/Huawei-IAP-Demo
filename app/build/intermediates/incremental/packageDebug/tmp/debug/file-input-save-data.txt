@@ -1,0 +1,27 @@
+#Internal package file, do not edit.
+#Thu Mar 05 10:41:06 PST 2020
+2.base=D\:\\iap_oversea_demo\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\out
+5.set=DEX
+0.path=grs_sdk_server_config.json
+2.baseType=DIRECTORY
+3.base=D\:\\iap_oversea_demo\\app\\build\\intermediates\\merged_assets\\debug\\mergeDebugAssets\\out
+2.set=DEX
+1.path=hianalytics_njjn
+4.base=D\:\\iap_oversea_demo\\app\\build\\intermediates\\merged_assets\\debug\\mergeDebugAssets\\out
+count=6
+5.baseType=DIRECTORY
+2.path=classes.dex
+5.base=D\:\\iap_oversea_demo\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out
+4.set=ASSET
+3.path=grs_sp.bks
+3.baseType=DIRECTORY
+1.set=ASSET
+4.path=updatesdkcas.bks
+1.baseType=DIRECTORY
+5.path=classes.dex
+0.base=D\:\\iap_oversea_demo\\app\\build\\intermediates\\merged_assets\\debug\\mergeDebugAssets\\out
+0.baseType=DIRECTORY
+3.set=ASSET
+1.base=D\:\\iap_oversea_demo\\app\\build\\intermediates\\merged_assets\\debug\\mergeDebugAssets\\out
+4.baseType=DIRECTORY
+0.set=ASSET
